@@ -1,0 +1,35 @@
+type = "x86"
+arch = "Windows"
+author = "Alexey Melnichuk"
+depends = {
+[[lua >= 5.1]],
+}
+
+desc = "A simple file encryption library"
+version = "0.1.2"
+maintainer = "Alexey Melnichuk"
+files = {
+Runtime = {
+[[lib\lua\AesFileEncrypt.dll]],
+}
+,
+Example = {
+[[share\lua-AesFileEncrypt\example\\eload.lua]],
+[[share\lua-AesFileEncrypt\example\\fileenc.lua]],
+[[share\lua-AesFileEncrypt\example\\prog.elua]],
+[[share\lua-AesFileEncrypt\example\\prog.lua]],
+}
+,
+Data = {
+[[share\lua-AesFileEncrypt\README.md]],
+}
+,
+Test = {
+[[share\lua-AesFileEncrypt\test\\test.lua]],
+}
+,
+}
+
+license = "GPL"
+name = "lua-AesFileEncrypt"
+url = "https://github.com/moteus/lua-AesFileEncrypt"
