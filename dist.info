@@ -1,4 +1,4 @@
-name = "AesFileEncrypt"
+name = "lua-AesFileEncrypt"
 version = "0.1.2"
 
 desc = "A simple file encryption library"
